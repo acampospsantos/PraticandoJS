@@ -11,9 +11,6 @@
 //let idade = 10;
 //console.log(idade);
 
-//
-console.log('Oiu - Classe Aula.js');
-
 //Tipos de Valores:
 //let nome = 'Lukita' --> string
 //let idade = 25 --> number
@@ -22,9 +19,9 @@ console.log('Oiu - Classe Aula.js');
 //let corSelecionado = null --> null (usado para resetar um valor)
 
 //Tipos de Referência
-//Objeto
-//Arrays
-//Functions
+// Objeto
+// Arrays
+// Functions
 
 //Declarando um Objeto
 //let pessoa = {
@@ -37,7 +34,33 @@ console.log('Oiu - Classe Aula.js');
 //console.log(pessoa);
 
 //Criando Array
-//let array = ['oi', 20, true]; //Array pode armazenar vários tipos de valores(diferentes) 
+//let array = ['Jão', 20, true]; //Array pode armazenar vários tipos de valores(diferentes) 
 //console.log(array);
 //console.log(array[2]); //Imprime o elemento de indice 2 (nesse caso é o true)
 //console.log(array.length); //Imprime o tamanho do Array
+
+//Criando Função: (P/ nomear: Verbo + substantivo) -> Boa prática
+//let corSite = 'Preto';
+//function resetaCor(){
+//    corSite = ""; //Deixa a corSite vazia
+//};
+//console.log(corSite);
+//resetaCor();
+//console.log(corSite); //Vai imprimir corSite como vazio
+
+//let corSite = 'Azul'
+//function resetaCor(cor, tonalidade){
+//    corSite = cor + ' ' + tonalidade;
+//};
+//console.log(corSite);
+//resetaCor('Vermelho', 'claro');
+//console.log(corSite);
+
+//Tipos de Operadores:
+//Operadores Aritméticos
+//Operadores de Atribuição
+//Operadores de Comparação
+//Operadores Lógicos
+//Operadores Bitwise
+
+//* Parei o vídeo no minuto 43:29  *
