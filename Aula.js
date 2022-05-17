@@ -23,6 +23,7 @@
 // Arrays
 // Functions
 
+
 //Declarando um Objeto
 //let pessoa = {
 //    nome: 'Lauruta' ,
@@ -33,11 +34,13 @@
 //}
 //console.log(pessoa);
 
+
 //Criando Array
 //let array = ['Jão', 22, true, 'Olinda']; //Array pode armazenar vários tipos de valores(diferentes) 
 //console.log(array);
 //console.log(array[2]); //Imprime o elemento de indice 2 (nesse caso é o true)
 //console.log(array.length); //Imprime o tamanho do Array(=4)
+
 
 //Criando Função: (P/ nomear: Verbo + substantivo) = camelCase -> Boa prática 
 //let corSite = 'Preto';
@@ -142,23 +145,23 @@
 //}
 
 //Condicional switch
-let permissao = 'comum' // comum, gerente, diretor
-switch(permissao){
-    case 'comum':
-        console.log('Usuário Comum');
-        break;
+//let permissao = 'comum' // comum, gerente, diretor
+//switch(permissao){
+//    case 'comum':
+//        console.log('Usuário Comum');
+//        break;
 
-    case 'gerente':
-        console.log('Usuário Gerente');
-        break;
+//    case 'gerente':
+//        console.log('Usuário Gerente');
+//        break;
     
-    case 'diretor':
-        console.log('Usuário Diretor');
-        break;
+//    case 'diretor':
+//        console.log('Usuário Diretor');
+//        break;
 
-    default:
-        console.log('Usuário Inválido');
-}
+//  default:
+//      console.log('Usuário Inválido');
+//}
 
 
 //Loops(laços): 
