@@ -8,3 +8,14 @@ let altura = 1.87;
 console.log(idade);
 console.log(nome);
 console.log(altura);
+
+/////Segundo Exercício: Inverter valores de a e b
+let a = 'vermelho';
+let b = 'azul';
+
+let c = a; //Criei uma variável que armazena o valor de a inicialmente
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);

@@ -34,15 +34,15 @@
 //console.log(pessoa);
 
 //Criando Array
-//let array = ['Jão', 20, true]; //Array pode armazenar vários tipos de valores(diferentes) 
+//let array = ['Jão', 22, true, 'Olinda']; //Array pode armazenar vários tipos de valores(diferentes) 
 //console.log(array);
 //console.log(array[2]); //Imprime o elemento de indice 2 (nesse caso é o true)
-//console.log(array.length); //Imprime o tamanho do Array
+//console.log(array.length); //Imprime o tamanho do Array(=4)
 
-//Criando Função: (P/ nomear: Verbo + substantivo) -> Boa prática
+//Criando Função: (P/ nomear: Verbo + substantivo) = camelCase -> Boa prática 
 //let corSite = 'Preto';
 //function resetaCor(){
-//    corSite = ""; //Deixa a corSite vazia
+//    corSite = ""; //Deixa a corSite vazia --> ou seja, resetou a cor
 //};
 //console.log(corSite);
 //resetaCor();
@@ -56,6 +56,7 @@
 //resetaCor('Vermelho', 'claro');
 //console.log(corSite);
 
+
 //Tipos de Operadores:
 //Operadores Aritméticos
 //Operadores de Atribuição
@@ -63,4 +64,69 @@
 //Operadores Lógicos
 //Operadores Bitwise
 
-//* Parei o vídeo no minuto 43:29  *
+//- Operadores Aritméticos (operador matemático)
+// + , - , * , / , **
+//let salario = 100;
+//console.log(salario + salario);
+//console.log(salario - salario);
+//console.log(salario * salario);
+//console.log(salario / salario);
+//console.log(5 ** 5); //Exponencial
+
+
+//++ --  (Operadores de Incremento e Decremento)
+//console.log(++salario)
+
+
+//Operadores de Atribuição 
+//let valorTeclado = 100;
+//valorTeclado = valorTeclado + 100  == valorTeclado += 100
+//console.log(valorTeclado);
+
+
+//Operadores de Igualdade
+//Igualdade Estrita (*MAIS RECOMENDADA*)
+//console.log(1 === 1) //Além d tá comparando os valores, a igualdade tbm tá comparando os tipos
+//Igualdade solta
+//console.log(1 == '1')//Comparando apenas valores, nesse caso dá true 
+
+
+//Operador Ternário
+//Um cliente, se tiver mais de 100 pontos é Premium, se não, é comum
+//let pontos = 100;
+//let tipo = pontos > 100 ? 'premium' : 'comum';
+//          (COMPARAÇÃO) (CASO SEJA VDD) (CASO SEJA FALSO)
+//console.log(tipo);
+
+
+//Operadores Lógicos
+// AND(&&), OR, NOT
+
+//Operador Lógico And (&&)
+//Retorna True se os dois operandos forem true
+//let maiorDeIdade = true;
+//let passouAutoEscola = true;
+//let podeDirigir = maiorDeIdade && passouAutoEscola;
+//console.log(podeDirigir);
+
+//Operador Lógico Or (||)
+//Retorna true se ao menos um dos operandos for true
+//let maiorDeIdade = false;
+//let passouAutoEscola = true;
+//let podeDirigir = maiorDeIdade || passouAutoEscola;
+//console.log(podeDirigir);
+
+//Operador Lógico Not (!)
+//let maiorDeIdade = false;
+//let passouAutoEscola = false;
+//let podeDirigir = maiorDeIdade && passouAutoEscola;
+//console.log(podeDirigir);
+//let inapto = !podeDirigir;
+//console.log(inapto);
+
+
+//Comparações NÃO Booleanos
+//Falsy
+//Truthy
+
+
