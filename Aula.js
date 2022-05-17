@@ -129,4 +129,34 @@
 //Falsy
 //Truthy
 
+//Condicionais: if.. else , Switch.. case
+//Condicional if
+//if (condicao){
+    //Codigo a ser executado
+//} 
+//else if (outraCondicao){
+    //Codigo a ser executado
+//}
+//else {
+    //Codigo a ser executado
+//}
+
+//Condicional switch
+let permissao = 'comum' // comum, gerente, diretor
+switch(permissao){
+    case 'comum':
+        console.log('Usuário Comum');
+        break;
+
+    case 'gerente':
+        console.log('Usuário Gerente');
+        break;
+    
+    case 'diretor':
+        console.log('Usuário Diretor');
+        break;
+
+    default:
+        console.log('Usuário Inválido');
+}
 
