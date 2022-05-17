@@ -160,3 +160,36 @@ switch(permissao){
         console.log('Usuário Inválido');
 }
 
+
+//Loops(laços): 
+//For
+//While
+//Do.. while
+//For.. in
+//For.. of
+
+// Usando For
+//for (let i=0; i <= 5; i++){
+//    if(i % 2 !== 0){ 
+//        console.log(i); //imprime os índices ímpares
+//    }
+//}
+
+// Usando While
+//let i = 0;
+//while(i <= 5){
+//    if(i%2 !== 0){
+//        console.log(i);
+//    }
+//    i=i+1;
+//}
+
+// Usando do.. while
+//let i = 1;
+//do{
+//    console.log('Digitando...', i);
+//    i = i + 1;
+//} while (i <= 10);
+
+// For.. in
+// For.. of
