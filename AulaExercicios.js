@@ -27,12 +27,12 @@ console.log(b);
 let primeiroValor = 10;
 let segundoValor = 11;
 function maxValue(firstValue, secondValue){
-    if(primeiroValor > segundoValor){
-        return primeiroValor;
-    } else if (primeiroValor < segundoValor){
-        return segundoValor;
+    if(firstValue > secondValue){
+        return firstValue;
+    } else if (firstValue < secondValue){
+        return secondValue;
     } else {
-        return null;
+        return firstValue; //poderia retornar o segundo valor também
     }
 }
 console.log(maxValue(primeiroValor, segundoValor));

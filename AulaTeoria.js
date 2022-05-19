@@ -33,9 +33,11 @@
 //    engenheiraRenomada: true
 //}
 //console.log(pessoa);
+//console.log(pessoa.idade);
 
 
 //Criando Array
+//OBS: (Lembrando que a contagem dos índices começa em 0)
 //let array = ['Jão', 22, true, 'Olinda']; //Array pode armazenar vários tipos de valores(diferentes) 
 //console.log(array);
 //console.log(array[2]); //Imprime o elemento de indice 2 (nesse caso é o true)
@@ -47,17 +49,17 @@
 //function resetaCor(){
 //    corSite = ""; //Deixa a corSite vazia --> ou seja, resetou a cor
 //};
-//console.log(corSite);
+//console.log(corSite); //Aq vai imprimir que a corSite é Preto
 //resetaCor();
 //console.log(corSite); //Vai imprimir corSite como vazio
 
 //let corSite = 'Azul'
-//function resetaCor(cor, tonalidade){
+//function alteraCor(cor, tonalidade){
 //    corSite = cor + ' ' + tonalidade;
 //};
-//console.log(corSite);
-//resetaCor('Vermelho', 'claro');
-//console.log(corSite);
+//console.log(corSite); //Aq vai imprimir corSite como Azul
+//alteraCor('Vermelho', 'claro');
+//console.log(corSite); //Vai imprimir corSite como Vermelho claro
 
 
 //Tipos de Operadores:
@@ -120,6 +122,7 @@
 //console.log(podeDirigir);
 
 //Operador Lógico Not (!)
+//Nega a premissa
 //let maiorDeIdade = false;
 //let passouAutoEscola = false;
 //let podeDirigir = maiorDeIdade && passouAutoEscola;
@@ -182,7 +185,7 @@
 //let i = 0;
 //while(i <= 5){
 //    if(i%2 !== 0){
-//        console.log(i);
+//        console.log(i); //imprime os índices ímpares
 //    }
 //    i=i+1;
 //}
