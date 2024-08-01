@@ -9,78 +9,92 @@ console.log('Testando!');
 ```
 
 ## CRIANDO VARIÁVEL
-//let idade = 10;
+```
+let idade = 10;
+```
 
 ##  CRIANDO VARIÁVEL E IMPRIMINDO SEU VALOR
-//let idade = 10;
-//console.log(idade);
+```
+let idade = 10;
+console.log(idade);
+```
 
 ## Tipos de Valores:
-//let nome = 'Lukita' --> string
-//let idade = 25 --> number
-//let aprovado = true --> boolean
-//let sobrenome = undefined => let sobrenome --> undefined
-//let corSelecionado = null --> null (usado para resetar um valor)
+```
+let nome = 'Lukita' --> string
+let idade = 25 --> number
+let aprovado = true --> boolean
+let sobrenome = undefined => let sobrenome --> undefined
+let corSelecionado = null --> null (usado para resetar um valor)
+```
 
 ## Tipos de Referência
-// Objeto
-// Arrays
-// Functions
+- Objeto
+- Arrays
+- Functions
 
 
 ## Declarando um Objeto
-//let pessoa = {
-//    nome: 'Lauruta' ,
-//    sobrenome: 'Países Baixos' ,
-//    idade: 22 ,
-//    estaAprovada: true ,
-//    engenheiraRenomada: true
-//}
-//console.log(pessoa);
-//console.log(pessoa.idade);
+```
+let pessoa = {
+    nome: 'Lauruta' ,
+    sobrenome: 'Países Baixos' ,
+    idade: 22 ,
+    estaAprovada: true ,
+    engenheiraRenomada: true
+}
+console.log(pessoa);
+console.log(pessoa.idade);
+```
 
 
 ## Criando Array
 //OBS: (Lembrando que a contagem dos índices começa em 0)
-//let array = ['Jão', 22, true, 'Olinda']; //Array pode armazenar vários tipos de valores(diferentes) 
-//console.log(array);
-//console.log(array[2]); //Imprime o elemento de indice 2 (nesse caso é o true)
-//console.log(array.length); //Imprime o tamanho do Array(=4)
+```
+let array = ['Jão', 22, true, 'Olinda']; //Array pode armazenar vários tipos de valores(diferentes) 
+console.log(array);
+console.log(array[2]); //Imprime o elemento de indice 2 (nesse caso é o true)
+console.log(array.length); //Imprime o tamanho do Array(=4)
+```
 
 
 ## Criando Função: (P/ nomear: Verbo + substantivo) = camelCase -> Boa prática 
-//let corSite = 'Preto';
-//function resetaCor(){
-//    corSite = ""; //Deixa a corSite vazia --> ou seja, resetou a cor
-//};
-//console.log(corSite); //Aq vai imprimir que a corSite é Preto
-//resetaCor();
-//console.log(corSite); //Vai imprimir corSite como vazio
+```
+let corSite = 'Preto';
+function resetaCor(){
+    corSite = ""; //Deixa a corSite vazia --> ou seja, resetou a cor
+};
+console.log(corSite); //Aq vai imprimir que a corSite é Preto
+resetaCor();
+console.log(corSite); //Vai imprimir corSite como vazio
 
-//let corSite = 'Azul'
-//function alteraCor(cor, tonalidade){
-//    corSite = cor + ' ' + tonalidade;
-//};
-//console.log(corSite); //Aq vai imprimir corSite como Azul
-//alteraCor('Vermelho', 'claro');
-//console.log(corSite); //Vai imprimir corSite como Vermelho claro
+let corSite = 'Azul'
+function alteraCor(cor, tonalidade){
+    corSite = cor + ' ' + tonalidade;
+};
+console.log(corSite); //Aq vai imprimir corSite como Azul
+alteraCor('Vermelho', 'claro');
+console.log(corSite); //Vai imprimir corSite como Vermelho claro
+```
 
 
 ## Tipos de Operadores:
-//Operadores Aritméticos
-//Operadores de Atribuição
-//Operadores de Comparação
-//Operadores Lógicos
-//Operadores Bitwise
+- Operadores Aritméticos
+- Operadores de Atribuição
+- Operadores de Comparação
+- Operadores Lógicos
+- Operadores Bitwise
 
 ## - Operadores Aritméticos (operador matemático)
 // + , - , * , / , **
-//let salario = 100;
-//console.log(salario + salario);
-//console.log(salario - salario);
-//console.log(salario * salario);
-//console.log(salario / salario);
-//console.log(5 ** 5); //Exponencial
+```
+let salario = 100;
+console.log(salario + salario);
+console.log(salario - salario);
+console.log(salario * salario);
+console.log(salario / salario);
+console.log(5 ** 5); //Exponencial
+```
 
 
 //++ --  (Operadores de Incremento e Decremento)
