@@ -102,9 +102,11 @@ console.log(5 ** 5); //Exponencial
 
 
 ## Operadores de Atribuição 
-//let valorTeclado = 100;
-//valorTeclado = valorTeclado + 100  == valorTeclado += 100
-//console.log(valorTeclado);
+```
+let valorTeclado = 100;
+valorTeclado = valorTeclado + 100  == valorTeclado += 100
+console.log(valorTeclado);
+```
 
 
 ## Operadores de Igualdade
@@ -155,65 +157,75 @@ console.log(5 ** 5); //Exponencial
 
 ## Condicionais: if.. else , Switch.. case
 ## Condicional if
-//if (condicao){
+```
+if (condicao){
     //Codigo a ser executado
-//} 
-//else if (outraCondicao){
+} 
+else if (outraCondicao){
     //Codigo a ser executado
-//}
-//else {
+}
+else {
     //Codigo a ser executado
-//}
+}
+```
 
 ## Condicional switch
-//let permissao = 'comum' // comum, gerente, diretor
-//switch(permissao){
-//    case 'comum':
-//        console.log('Usuário Comum');
-//        break;
+```
+let permissao = 'comum' // comum, gerente, diretor
+switch(permissao){
+    case 'comum':
+        console.log('Usuário Comum');
+        break;
 
-//    case 'gerente':
-//        console.log('Usuário Gerente');
-//        break;
+    case 'gerente':
+        console.log('Usuário Gerente');
+        break;
     
-//    case 'diretor':
-//        console.log('Usuário Diretor');
-//        break;
+    case 'diretor':
+        console.log('Usuário Diretor');
+        break;
 
-//  default:
-//      console.log('Usuário Inválido');
-//}
+  default:
+      console.log('Usuário Inválido');
+}
+```
 
 
 ## Loops(laços): 
-//For
-//While
-//Do.. while
-//For.. in
-//For.. of
+- For
+- While
+- Do.. while
+- For.. in
+- For.. of
 
 // Usando For
-//for (let i=0; i <= 5; i++){
-//    if(i % 2 !== 0){ 
-//        console.log(i); //imprime os índices ímpares
-//    }
-//}
+```
+for (let i=0; i <= 5; i++){
+    if(i % 2 !== 0){ 
+        console.log(i); //imprime os índices ímpares
+    }
+}
+```
 
 // Usando While
-//let i = 0;
-//while(i <= 5){
-//    if(i%2 !== 0){
-//        console.log(i); //imprime os índices ímpares
-//    }
-//    i=i+1;
-//}
+```
+let i = 0;
+while(i <= 5){
+    if(i%2 !== 0){
+        console.log(i); //imprime os índices ímpares
+    }
+    i=i+1;
+}
+```
 
 // Usando do.. while
-//let i = 1;
-//do{
-//    console.log('Digitando...', i);
-//    i = i + 1;
-//} while (i <= 10);
+```
+let i = 1;
+do{
+    console.log('Digitando...', i);
+    i = i + 1;
+} while (i <= 10);
+```
 
 // For.. in
 // For.. of
