@@ -120,7 +120,7 @@ console.log(valorTeclado);
 - Um cliente, se tiver mais de 100 pontos é Premium, se não, é comum
 - let pontos = 100;
 - let tipo = pontos > 100 ? 'premium' : 'comum';
--          (COMPARAÇÃO) (CASO SEJA VDD) (CASO SEJA FALSO)
+- (COMPARAÇÃO) (CASO SEJA VDD) (CASO SEJA FALSO)
 - console.log(tipo);
 
 
