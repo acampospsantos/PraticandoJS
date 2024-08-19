@@ -20,5 +20,5 @@ let nomeIdade = nome + " " + idade
 
 let profissao = "Programador"
 let salario = 5000
-let profissaoCompleta = profissao + " " + salario
+let profissaoCompleta = profissao + " - " + salario
 console.log(profissaoCompleta)

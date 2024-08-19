@@ -14,3 +14,5 @@
  } else {
     console.log("Que beleza! ")
  }
+
+ //Oq podemos aprender aqui: estruturas condicionais - if else

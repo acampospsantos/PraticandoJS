@@ -8,3 +8,6 @@ console.log(variavel)
 
 minhaString = "Sport"
 console.log(minhaString)
+
+/*Oq podemos aprender aqui: as variáveis quando criadas, podem ser inicializadas 
+com valores pré definidos, mas ao longo do programa podemos modificar esses valores */

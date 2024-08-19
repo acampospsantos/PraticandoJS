@@ -9,13 +9,13 @@ for (let i=0; i < 4; i++){
     console.log(lista[i])
 }
 */
+
 for (let i=0; i < lista.length; i++){
     console.log("O valor atual é: " + i)
     console.log(lista[i])
 }
 
 //Uso do while
-
 let reais = 0
 while(reais != 100){
     reais = reais + 1
@@ -23,7 +23,6 @@ while(reais != 100){
 }
 
 let idade = 0
-
 while (idade != 18){
     idade = idade + 1
 }

@@ -1,3 +1,4 @@
+//Aprendendo operações: Soma, Subtração, Multiplicação e Divisão
 //Soma
 let minhaVariavel = 20
 let outraVarival = 15
